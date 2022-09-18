@@ -2,7 +2,6 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class AfishaTest{
-
     @Test
     public void add() {
         Afisha afisha = new Afisha();
@@ -15,7 +14,6 @@ public class AfishaTest{
 
         Assertions.assertArrayEquals(expected, actual);
     }
-
     @Test
     public void findAll() {
         Afisha afisha = new Afisha();
@@ -29,7 +27,6 @@ public class AfishaTest{
 
         Assertions.assertArrayEquals(expected, actual);
     }
-
     @Test
     public void limit10() {
         Afisha afisha = new Afisha();
