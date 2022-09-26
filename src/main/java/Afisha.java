@@ -2,11 +2,11 @@
 public class Afisha {
     private String[] movies = new String[0];
     private int limit;
-    public Afisha() {
-        limit = 10;
-    }
     public Afisha(int limit) {
         this.limit = limit;
+    }
+    public Afisha() {
+        limit = 10;
     }
     public void add(String movie) {
         String[] tmp = new String[movies.length + 1];
@@ -19,6 +19,7 @@ public class Afisha {
     public String[] findAll() {
         return movies;
     }
+
     public String[] findLast() {
         int length;
         if (movies.length < limit) {
